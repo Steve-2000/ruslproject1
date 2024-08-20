@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Same background color as homepage */
+}
+
+.header {
+    background-color: #d32f2f; /* Same deep red as homepage header */
+    color: white;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.header .links {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+
+.header .links img {
+    height: 50px; /* Same logo size as homepage */
+}
+
+.header .links nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header .links nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: #b71c1c; /* Same darker red for navigation links */
+    transition: background-color 0.3s ease;
+}
+
+.header .links nav a:hover {
+    background-color: #9a0007; /* Same darker shade for hover effect */
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    margin: 20px auto;
+    background: #ffffff; /* Match background with homepage content areas */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+}
+
+.form-box {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.registration-form {
+    background-color: #f9f9f9; /* Lighter background for registration form */
+}
+
+.login-form {
+    background-color: #ffffff; /* Same background as the form container */
+    position: relative;
+}
+
+.login-form img {
+    width: 490px; /* Original width retained */
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    min-width: 440px; /* Ensure the image doesn't shrink below the original size */
+}
+
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #d32f2f; /* Match heading color with header */
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #d32f2f; /* Match button color with header */
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b71c1c; /* Darker shade for hover effect */
+}
+
+footer {
+    background-color: #d32f2f; /* Same footer color as homepage */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #ffc107; /* Same golden color for footer links */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+footer {
+    background-color: #d32f2f; /* Match footer with header */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #ffc107; /* Golden color for links in the footer */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

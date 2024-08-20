@@ -1,0 +1,539 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+.left{
+   
+}
+body{
+    /* background-image:url("blood/becca-tapert-u5e1kqW6E3M-unsplash.jpg"); */
+    
+    
+    background-image: linear-gradient(pink,lightblue,rgb(223, 151, 213),transparent);
+    background-repeat: repeat-x;
+    
+    width: 100%;
+  
+    max-width: 100%;
+    
+    padding: 20px;
+    
+    
+    
+    
+    
+    background-size: cover;   
+
+}
+
+
+.links nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    align-items: start;
+    
+   
+    
+    
+}
+nav img{
+    width: 100px;
+    cursor: pointer;
+    margin-bottom:50px;
+    border-radius: 10px;
+    border: 1px  groove red;
+    
+    
+
+    
+    
+}
+.list  li{
+    list-style: none;
+    display: inline-block;
+    margin:15px;
+    padding: 3px;
+    width: fit-content;
+   
+    
+    justify-content:space-between;
+    text-align: center;
+    background-color: rgb(208, 215, 221);
+    border-radius: 10px;
+    font-size: 15px;
+    border:1px dotted rgb(0, 0, 0);
+   
+
+
+}
+
+.links a{
+    text-decoration: none;
+    color: red;
+    text-align: right;
+    text-align: center;
+    
+    
+    width: 100px;
+}
+.district{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    margin: 0px 60px;
+    margin-bottom: 50px;
+    
+}
+.district a {
+    text-decoration: none;
+}
+.district p {
+    flex:unset;
+    width:min-content;
+    
+    background-color: white;
+    justify-content: space-around;
+    flex-direction: row;
+    text-align: center;
+    border-radius: 20px;
+    align-items: center;
+    margin:40px;
+    color: red;
+    padding: 13px;
+    text-align: center;
+    box-shadow: 5px 5px 5px 2px rgb(26, 105, 50);
+
+    
+
+
+}
+.list a:link{
+    color:rgb(128, 0, 100);
+    
+}
+.list a:visited{
+    color:rgb(163, 16, 73);
+
+}
+
+
+.list a:hover{
+    color:rgb(21, 128, 0);
+    
+    
+    
+  
+}
+.list a:active{
+    color:rgb(0, 128, 38);
+}
+#title{
+    text-align: center;
+    font-family: cursive;
+    font-size: 3em;
+}
+.header2{
+    color:rgb(15, 15, 14);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bolder;
+}
+.district p:hover{
+    background-color: aqua;
+    box-shadow: 2px 2px 2px 2px rgb(18, 223, 18);
+}
+.imgdes{
+    display: flex;
+    justify-content:flex-start;
+    margin-top: 75px;
+    background-color: rgb(236, 239, 243);
+    padding: 10px;;
+   
+    
+
+}
+.imgdes img{
+    margin: 10px;
+    
+}
+.imgdes .img1{
+    flex:1;
+    
+    
+    
+    
+
+
+
+}
+.imgdes .img2{
+    flex:1;
+    
+    
+    
+    
+
+
+
+}
+.imgdes .img3{
+    flex:1;
+    
+    
+    
+
+
+
+}
+
+.benifits{
+    font-size: 30px;
+    text-align: center;
+    font-family: cursive;
+    margin-top: 50px;
+    
+}
+footer{
+    text-align: center;
+    margin-top: 100px;
+
+}
+footer p,h4,h5{
+    margin:5px;
+}
+.grid{
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 300px 400px 300px;
+    display: grid;
+    column-gap: 5px;
+    row-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    justify-items: right;
+    
+}
+.grid .hi{
+    
+    grid-row: span 3;
+    height: 700px;
+    width: 100%;
+    padding: 50px;
+}
+
+
+/* contacts                        dgbfdbdfbdfbdf */
+
+.home{
+    width: 60%;
+    
+
+}
+.home h1{
+    margin-bottom :60px;
+    color:white;
+}
+.hi fieldset{
+    margin:30px;
+    border: 3px solid white;
+    border-radius: 30px;
+}
+fieldset legend{
+    margin:30px;
+    color:rgb(202, 13, 13);
+}
+#being{
+    color:blue;
+}
+.out{
+    padding: 100px;
+}
+.fssub{
+    padding:40px;
+}
+.fs{
+    padding:10px;
+    
+}
+.hi div{
+    margin-top: 10px;
+}
+.name input{
+    width: fit-content;
+    align-items: first baseline;
+    margin-left: 20px;
+}
+
+.select{
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+.select label{
+    margin-right: 50px;
+    
+    
+}
+.left{
+    box-sizing: border-box;
+    
+}
+.right{
+   
+    box-sizing: border-box;
+    display: block;
+}
+    
+.btn1{
+    background-color:rgb(56, 129, 148);
+    border-radius: 20px;
+    padding: 6px;
+    margin-left: 0px;
+    margin: 60px;
+    transition-duration:1s ;
+    
+   
+    
+    
+    
+}
+.btn1:hover{
+    
+    box-shadow: 3px;
+    background-color: red;
+    transition-property: background-color;
+   
+    
+}
+/*   camps html bhbdvhbsdvbjvhdfjvbdjvbdjfvsfbzdfbdbzdfbdf */
+
+.container h2{
+        text-align: center;
+        font-weight: 900;
+        color:#fff;
+        margin:50px;
+        
+}
+.group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding :40px;
+}
+.group img{
+    border-radius: 17px;
+    border:2px solid white;
+    box-shadow: 2px 2px 4px 0px rgb(194, 255, 192);
+}
+.group div {
+    position: relative;
+
+}
+.group div span{
+    position:absolute;
+    top:50%;
+    left:50%;
+    color: rgb(255,255,255);
+    font-weight: 900;
+    font-size:22px;
+    transform: translate(-50%,-50%);
+
+}
+.group div:hover{
+    box-shadow: 2px 2px 19px 15px rgb(194, 255, 192);
+    border-radius: 20px;
+    cursor: pointer;
+
+
+
+}
+
+
+
+/* news.html                  njnj*/
+
+.containormember h2{
+    text-align: center;
+    font-weight: bolder;
+    font-family: cursive;
+    text-shadow:5px -2px 7px #80922d;
+    font-size: 30px;
+    margin-bottom:30px;
+    margin-top: 0px;
+}
+.member{
+    width: 60%;
+    border:1px solid black;
+    background-color: rgb(113, 145, 92);
+    margin-left:10%;
+    
+    
+}
+
+
+.member img{
+   
+    
+   
+    
+   
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    
+}
+.flex p{
+    flex:2;
+    text-align: left;
+}
+.flex h2{
+    text-align: left;
+}
+.flex img{
+    flex:1;
+    
+    margin:50px 100px 0px 0px;
+    width: 100px;
+    height: 100px;
+
+    
+}
+/*containordetails    mmebers*/
+
+.containordetails{
+    display: grid;
+    grid-template-columns: 50% 50%;
+   
+    margin: 20px;
+
+
+    
+
+
+
+    
+
+}
+.containordetails div{
+    display: grid;
+    
+    border: 2px solid black;
+    margin: 40px;
+    border-radius: 20px;
+    padding: 20px;
+    
+    
+}
+.containordetails div img{
+    width: 100px;
+    height: 100px;
+    
+    display: inline-block;
+   
+
+}
+.containordetails div h5{
+    
+    display: inline-block;
+    color: rgb(138, 59, 59);
+
+    
+}
+.containordetails div h5::first-letter{
+    font-size: 40px;
+}
+.containordetails div h2{
+    font-weight: bold;
+    color: cadetblue;
+}
+.containordetails div h3{
+    font-weight: light;
+    color: rgb(78, 67, 175);
+
+}
+
+.containordetails div h4{
+    color: rgb(23, 170, 84);
+}
+
+
+/* drop down*/
+
+.drop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+  }
+
+  label {
+    margin-right: 10px;
+  }
+
+  /* nav*/
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.header .links {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+
+.header .links img {
+    height: 50px; /* Adjust logo size as needed */
+}
+
+.header .links nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header .links nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: #0056b3;
+    transition: background-color 0.3s ease;
+}
+
+.header .links nav a:hover {
+    background-color: #003d7a;
+}
+
+  
+ 

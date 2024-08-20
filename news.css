@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Matching background color with previous pages */
+    background-image: linear-gradient(to right, #f9f9f9, #f4f4f4); /* Subtle gradient */
+}
+
+.header {
+    background-color: #d32f2f; /* Deep Red for Header */
+    color: white;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.header .links {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+
+.header .links img {
+    height: 50px; /* Adjust logo size as needed */
+}
+
+.header .links nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header .links nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: #b71c1c; /* Slightly darker shade of red for links */
+    transition: background-color 0.3s ease;
+}
+
+.header .links nav a:hover {
+    background-color: #9a0007; /* Darker shade for hover effect */
+}
+
+.containordetails {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background for content area */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.containordetails > div {
+    background: #ffffff; /* White background for each card */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    width: calc(33% - 20px); /* Adjust width to ensure consistent layout */
+}
+
+.containordetails img {
+    max-width: 50%; /* Further reduced image size */
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.containordetails h2 {
+    color: #d32f2f; /* Matching color with header and headings */
+    font-size: 22px;
+    margin: 10px 0;
+    position: relative; /* Positioning relative to allow control over the image */
+}
+
+.containordetails h2 img {
+    float: left;
+    max-width: 20px; /* Significantly smaller image size */
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+.containordetails h3 {
+    color: #555;
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.containordetails h4 {
+    color: #777;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.containordetails h5 {
+    color: #333;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #d32f2f; /* Match footer with header */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #ffc107; /* Golden color for links in the footer */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

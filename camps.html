@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="camps.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camps</title>
+   
+</head>
+
+<body>
+    <section class="header">
+        <div class="links">
+            <a href="index.php"><img src="blood/blood logo.jpg" alt="logo"></a>
+            <nav>
+                <a href="index.php">Home</a>
+                <a href="contacts.html">Portal</a>
+                <a href="camps.html">Events</a>
+                <a href="news.html">About</a>
+            </nav>
+        </div>
+    </section>
+
+    <div class="container">
+        <h2>Programmes</h2>
+        <div class="group">
+            <div id="meetup">
+                <img src="blood/OIP (5).jpg" alt="Meetup">
+                <p>Meetup</p>
+            </div>
+            <div id="blood-camp">
+                <img src="blood/OIP22.jpg" alt="Blood Camp">
+                <p>Blood Camp</p>
+            </div>
+            <div id="socializing">
+                <img src="blood/image.png" alt="Socializing">
+                <p>Socializing</p>
+            </div>
+        </div>
+
+        <!-- Content for Meetup -->
+        <div id="meetup-content" class="content">
+            <h3>Meetup</h3>
+            <p>Join our regular meetups to connect with fellow donors, volunteers, and healthcare professionals. These gatherings are a great opportunity to share experiences, discuss challenges, and learn from experts in the field of blood donation. Whether you are a seasoned donor or new to the community, our meetups provide valuable insights and foster a supportive environment.</p>
+        </div>
+
+        <!-- Content for Blood Camp -->
+        <div id="blood-camp-content" class="content">
+            <h3>Blood Camp</h3>
+            <p>Our blood camps are organized in various locations to make blood donation accessible to everyone. These events are well-coordinated with medical staff, volunteers, and necessary equipment to ensure a smooth and safe donation process. We provide refreshments and a comfortable environment for donors, along with educational materials to raise awareness about the importance of blood donation.</p>
+        </div>
+
+        <!-- Content for Socializing -->
+        <div id="socializing-content" class="content">
+            <h3>Socializing</h3>
+            <p>Socializing events are a chance to relax and build connections with others who are passionate about saving lives through blood donation. These events include activities like group discussions, team-building exercises, and social gatherings. It's a fun way to bond with the community, share your story, and inspire others to become regular donors.</p>
+        </div>
+    </div>
+
+    <h2 class="footer-text">#Explore with us &#128522;</h2>
+
+    <script>
+        document.getElementById("meetup").addEventListener("click", function () {
+            hideAllContents();
+            document.getElementById("meetup-content").style.display = "block";
+        });
+
+        document.getElementById("blood-camp").addEventListener("click", function () {
+            hideAllContents();
+            document.getElementById("blood-camp-content").style.display = "block";
+        });
+
+        document.getElementById("socializing").addEventListener("click", function () {
+            hideAllContents();
+            document.getElementById("socializing-content").style.display = "block";
+        });
+
+        function hideAllContents() {
+            document.getElementById("meetup-content").style.display = "none";
+            document.getElementById("blood-camp-content").style.display = "none";
+            document.getElementById("socializing-content").style.display = "none";
+        }
+    </script>
+</body>
+
+<footer>
+    <p>More details: <a href="#">BloodDonation.gov</a> or other platforms: <a href="#">RedCross</a>. Call 077xxxxxxx</p>
+    <h4>Sri Lanka</h4>
+    <h5>&copy; 2023 BloodDonation.lk. All rights reserved &reg;</h5>
+    <span><a href="#">Privacy Policy</a></span> &#9474;
+    <span><a href="#">Terms of Use</a></span> &#9474;
+    <span><a href="#">Camps and Events</a></span>
+</footer>
+
+</html>

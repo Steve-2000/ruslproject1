@@ -23,6 +23,7 @@ session_start();
                 <a href="contacts.html">portal</a>
                 <a href="camps.html">events</a>
                 <a href="news.html">about</a>
+                <a href="admin.html">Admin</a>
             </nav>
         </div>
     </section>

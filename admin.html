@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="contacts.css" type="text/css">
+</head>
+
+<body>
+    <section class="header">
+        <div class="links">
+            <a href="index.php"><img src="blood/blood logo.jpg" alt="logo"></a>
+            <nav>
+                <a href="index.php">Home</a>
+                <a href="contacts.html">portal</a>
+                <a href="camps.html">events</a>
+                <a href="news.html">about</a>
+                <a href="admin.html">Admin</a>
+            </nav>
+        </div>
+    </section>
+
+    <h1 style="text-align: center;">Panel Access</h1>
+
+    <div class="form-container">
+        <!-- Hospital Registration Form -->
+        <div class="form-box registration-form">
+            <h1>New Camping</h1>
+            <form id="registration-form" action="hospital_registration.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="district">District:</label>
+                <input type="text" id="district" name="district" required>
+
+                <label for="phone">Contact Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="area">Area:</label>
+                <input type="text" id="area" name="area" required>
+
+                <button type="submit" name="register">Register</button>
+            </form>
+        </div>
+    </div>
+</body>
+<footer>
+    <p>More details: <a href="#">BloodDonation.gov</a> or other platforms: <a href="#">RedCross</a>. Call 077xxxxxxx</p>
+    <h4>Sri Lanka</h4>
+    <h5>&copy; 2023 BloodDonation.lk. All rights reserved &reg;</h5>
+    <span><a href="#">Privacy Policy</a></span> &#9474;
+    <span><a href="#">Terms of Use</a></span> &#9474;
+    <span><a href="#">Camps and Events</a></span>
+</footer>
+</html>

@@ -1,3 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Matching background color with previous pages */
+    background-image: linear-gradient(to right, #f9f9f9, #f4f4f4); /* Subtle gradient */
+}
+
+.header {
+    background-color: #d32f2f; /* Deep Red for Header */
+    color: white;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.header .links {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+
+.header .links img {
+    height: 50px; /* Adjust logo size as needed */
+}
+
+.header .links nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header .links nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: #b71c1c; /* Slightly darker shade of red for links */
+    transition: background-color 0.3s ease;
+}
+
+.header .links nav a:hover {
+    background-color: #9a0007; /* Darker shade for hover effect */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background for content area */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 100px;
+}
+
+h2 {
+    text-align: center;
+    color: #d32f2f; /* Matching heading color with header */
+    font-size: 32px;
+    margin: 20px 0;
+}
+
+.group {
+    display: flex;
+    justify-content: space-around; /* Distributes items evenly */
+    align-items: center; /* Vertically aligns items in the center */
+    gap: 20px;
+}
+
+.group div {
+    background: #ffffff; /* White background for each card */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    flex: 1; /* Ensures divs take equal space */
+    max-width: 300px; /* Sets a max-width for each item */
+}
+
+.group img {
+    width: 100%; /* Ensures the image takes the full width of the div */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 8px; /* Consistent border radius */
+    border: 2px solid #ddd; /* Consistent border size and color */
+}
+
+.group p {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0 0; /* Margin adjusted to align with the image */
+}
+
+.footer-text {
+    text-align: center;
+    color: #d32f2f; /* Matching color with header and headings */
+    font-size: 38px;
+    margin: 20px 0;
+    margin-bottom: 50px;
+}
+footer {
+    background-color: #d32f2f; /* Match footer with header */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #ffc107; /* Golden color for links in the footer */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -78,3 +206,51 @@ body {
     color: #555;
     text-align: center;
 }
+.header {
+    background-color: #d32f2f; /* Deep Red for Header */
+    color: white;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.header .links {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+
+.header .links img {
+    height: 50px; /* Adjust logo size as needed */
+}
+
+.header .links nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header .links nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: #b71c1c; /* Slightly darker shade of red for links */
+    transition: background-color 0.3s ease;
+}
+
+.header .links nav a:hover {
+    background-color: #9a0007; /* Darker shade for hover effect */
+}
+
+
+
+
+
+
